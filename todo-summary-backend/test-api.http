@@ -1,0 +1,16 @@
+### Get all todos
+GET http://localhost:5000/todos
+
+### Add a new todo
+POST http://localhost:5000/todos
+Content-Type: application/json
+
+{
+  "text": "Finish internship project"
+}
+
+### Delete a todo
+DELETE http://localhost:5000/todos/1716403920532
+
+### Summarize and send to Slack
+POST http://localhost:5000/summarize
